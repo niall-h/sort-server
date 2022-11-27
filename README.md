@@ -1,6 +1,6 @@
 Sort Server (Socket Programming)
 
-The idea of this application is to establish a client-server connection and perform a sort operation on the server. The client parses a binary file as input, attempts to connect to a server, and sends the data obtained from the file using TCP. The server receives this data, sorts it, and writes a response containing the sorted binary data back to the client. The client then writes this data back to a local output file.
+The idea of this application is to establish a client-server connection and perform a sort operation on the server. The client parses a binary file as input, attempts to connect to a server, and sends the data obtained from the file to the server using a TCP socket. The server receives this data, sorts it, and writes a response containing the sorted binary data back to the client. The client then writes this data back to a local output file.
 
 __________________________________________________________________________________________________________________________________________
 
